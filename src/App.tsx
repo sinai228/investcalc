@@ -1,4 +1,4 @@
-import React, { useState } from 'react' 
+import { useState } from 'react' 
 import TradingViewWidget from './components/Banner'
 import './App.css'
 
@@ -6,7 +6,7 @@ import './App.css'
 
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
   const [rate, setRate] = useState('');
   const [investment, setInvestment] = useState('');
   const [income, setIncome] = useState('');
